@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>颜值爆表</title>
+  <style>
+    div{
+      width: 600px;
+    height: 750px;
+    border:6px solid #fff;
+    box-shadow: 0px 0px 20px 0px blue;
+   overflow:hidden;  
+      position:relative;
+    }
+    div img{
+     transition:all.3s ;
+      transform:scale(1)
+    }
+    div:hover img{
+      
+ cursor:pointer;
+     transform:scale(2.7)
+    }
+    div figcaption{
+      
+      position:absolute;
+      text-align:center;
+      left:0;
+      z-index:3;
+      bottom:0;
+      background-color:rgba(255,255,255,0);
+      height: 120px;
+      width: 100%;
+      color:rgba(0,60,0,0)
+        
+      
+      
+    }
+    div:hover figcaption{
+      color:rgba(0,60,0,1);
+      background-color:rgba(255,255,255,0.3);
+    }
+    figcaption{
+      font-style:italic;
+       font-weight:900;
+     text-indent:2em;
+      letter-spacing:8px;
+      font-size:xx-large;
+    }
+  </style>
+</head>
+<body>
+  <div class="a">
+    <figcaption>表情包</figcaption>
+    <img src="http://d.hiphotos.baidu.com/zhidao/pic/item/77094b36acaf2edde056529e8b1001e939019325.jpg" alt="">
+  </div>
+</body>
